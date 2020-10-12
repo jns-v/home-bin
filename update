@@ -1,0 +1,1 @@
+sudo zypper -nvv up -l && sudo zypper ps -s 

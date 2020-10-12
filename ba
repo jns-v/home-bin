@@ -1,0 +1,2 @@
+#!/bin/bash
+cd /mnt/nas/Studium/ohm/VT8/Bachelorarbeit && nvim -p Bachelorarbeit.tex cha/00_Glossaries.tex cha/00_Definitionen.tex cha/01_Abstract.tex cha/01_Einordnung.tex cha/02_Anlagenbeschreibung.tex cha/03_Theorie.tex cha/04_Simulation.tex cha/05_Fallstudien.tex cha/06_Flutkorrelation.tex cha/07_Bauliche_Massnahmen.tex cha/08_Zusammenfassung.tex cha/AA_Anhang.tex /home/jonas/.config/nvim/plugged/vim-snippets/UltiSnips/tex.snippets

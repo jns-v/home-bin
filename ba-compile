@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /mnt/nas/Studium/ohm/VT8/Bachelorarbeit && lualatex --synctex=yes --interaction=nonstopmode Bachelorarbeit.tex && makeglossaries Bachelorarbeit && biber Bachelorarbeit && lualatex --synctex=yes --interaction=nonstopmode Bachelorarbeit.tex && lualatex --synctex=yes --interaction=nonstopmode Bachelorarbeit.tex
+

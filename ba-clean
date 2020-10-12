@@ -1,0 +1,8 @@
+#!/bin/bash
+# Clean auxiliary files
+
+cd /mnt/nas/Studium/ohm/VT8/Bachelorarbeit
+
+for f in $(cat ls.txt); do
+  rm "$f";
+done
